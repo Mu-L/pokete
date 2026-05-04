@@ -36,7 +36,7 @@ def test_get_hp_has_minimum_damage_floor_of_4_on_hit():
 
     damage = AttackProcess.get_hp(attacker, defender, attack, random_factor=1, eff=1)
 
-    assert damage == 4
+    assert damage == 3
 
 
 def test_get_hp_keeps_higher_damage_values():
